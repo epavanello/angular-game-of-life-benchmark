@@ -52,7 +52,6 @@ export class CellComponent implements OnInit {
    * to slow down change detection. */
   getColor() {
     // eslint-disable-next-line no-restricted-syntax
-    console.debug('getColor');
     return this.color;
   }
 }
